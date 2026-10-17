@@ -32,7 +32,7 @@ export const experiences: ExperienceInterface[] = [
       "Optimized field data tracking and dispatch workflows, significantly reducing reporting bottlenecks.",
       "Developed presentation slides and technical posters showcasing operational efficiency metrics to department leaders."
     ],
-    skills: ["Python", "HTML 5", "CSS 3"],
+    skills: ["Excel", "Data Analysis"],
     companyUrl: "https://www.peco.com",
     logo: "/experience/peco-logo.png",
   },
