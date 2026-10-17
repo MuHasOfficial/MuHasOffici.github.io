@@ -71,6 +71,7 @@ export type ValidSkills =
   | "Engineering Design & Optimization" 
   | "Excel"
   | "Data Analysis"
+  | "SolidWorks"
 ;
 
 export type ValidCategory =
