@@ -68,7 +68,10 @@ export type ValidSkills =
   | "Excel & Master Data Automation"
   | "Drone Operations & Field Recovery"
   | "Multisim Circuit Design"
-  | "Engineering Design & Optimization";
+  | "Engineering Design & Optimization" 
+  | "Excel"
+  | "Data Analysis"
+;
 
 export type ValidCategory =
   | "Full Stack"
