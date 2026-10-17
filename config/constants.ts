@@ -56,11 +56,19 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "SolidWorks & CAD"
+  | "MATLAB & Simulink"
+  | "Mechatronics & Embedded Systems"
+  | "Finite Element Analysis (FEA)"
+  | "High-G Payload Design"
+  | "Rapid Prototyping & 3D Printing"
+  | "Excel & Master Data Automation"
+  | "Drone Operations & Field Recovery"
+  | "Multisim Circuit Design"
+  | "Engineering Design & Optimization";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +77,16 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "CAD Modeling"
+  | "FEA / Stress Analysis"
+  | "Hardware Engineering"
+  | "Mechatronics"
+  | "Drone Operations"
+  | "Data Automation"
+  | "Mechanical Engineering"
+  | "Process Optimization"
+  | "Simulation";
 
 export type ValidExpType = "Personal" | "Professional";
 
