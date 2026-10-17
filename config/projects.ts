@@ -37,8 +37,6 @@ export const Projects: ProjectInterface[] = [
       "Designed high-altitude stratospheric balloon payload hardware and 10G shock-resistant tungsten mounting stacks for cosmic ray research.",
     techStack: [
       "SolidWorks",
-      "MATLAB",
-      "Python",
       "Finite Element Analysis (FEA)",
       "High-G Payload Design"
     ],
@@ -75,7 +73,6 @@ export const Projects: ProjectInterface[] = [
     techStack: [
       "Mechatronics & Embedded Systems",
       "Drone Operations & Field Recovery",
-      "Python",
       "Rapid Prototyping & 3D Printing"
     ],
     startDate: new Date("2026-08-01"),
@@ -110,7 +107,6 @@ export const Projects: ProjectInterface[] = [
       "Designed an automated Excel master data tracking system, dynamic pivot tables, and presentation materials to optimize field maintenance operations.",
     techStack: [
       "Excel & Master Data Automation",
-      "Python",
       "Engineering Design & Optimization"
     ],
     startDate: new Date("2026-08-01"),
@@ -144,8 +140,7 @@ export const Projects: ProjectInterface[] = [
     shortDescription:
       "Participated in the design, analysis, and custom component fabrication for the Drexel Formula SAE racing car powertrain team.",
     techStack: [
-      "SolidWorks & CAD",
-      "MATLAB & Simulink",
+      "SolidWorks",
       "Finite Element Analysis (FEA)",
       "Rapid Prototyping & 3D Printing"
     ],
