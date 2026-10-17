@@ -16,77 +16,77 @@ export interface ExperienceInterface {
 
 export const experiences: ExperienceInterface[] = [
   {
-    id: "ubs",
-    position: "Software Development Engineer",
-    company: "UBS",
-    location: "Mumbai, India",
-    startDate: new Date("2024-08-01"),
+    id: "peco-fin",
+    position: "Engineering & Master Data Intern",
+    company: "PECO - Fix It Now (FIN) Department",
+    location: "Philadelphia, PA",
+    startDate: new Date("2026-08-01"),
+    endDate: new Date("2026-09-30"),
+    description: [
+      "Engineered automated master data tracking systems and dynamic pivot table dashboards for maintenance job tracking.",
+      "Streamlined dispatch workflows and field reporting analytics for maintenance operations.",
+      "Created technical presentations and poster materials highlighting departmental efficiency gains."
+    ],
+    achievements: [
+      "Designed an automated Excel master data tracking system and dynamic pivot tables to streamline departmental job reporting.",
+      "Optimized field data tracking and dispatch workflows, significantly reducing reporting bottlenecks.",
+      "Developed presentation slides and technical posters showcasing operational efficiency metrics to department leaders."
+    ],
+    skills: ["Excel & Master Data Automation", "Python", "Engineering Design & Optimization"],
+    companyUrl: "https://www.peco.com",
+    logo: "/experience/peco-logo.png",
+  },
+  {
+    id: "hera-nasa-psgc",
+    position: "Drone Recovery Team Lead & Hardware Engineer",
+    company: "HERA Collaboration (Drexel / NASA PSGC)",
+    location: "Philadelphia, PA",
+    startDate: new Date("2026-08-01"),
     endDate: "Present",
     description: [
-      "Shipped production features within the first month for a trader-facing P&L dashboard used by global stakeholders.",
-      "Led the migration from Kendo UI to UBS’s internal design system to reduce UI inconsistencies and improve render performance.",
-      "Designed and automated a daily FX rate ingestion pipeline using Databricks (Python, Spark SQL) and Java services.",
+      "Directed task delegation and operational testing protocols for drone recovery systems.",
+      "Designed and modeled 10G shock-resistant tungsten mounting stacks in SolidWorks for stratospheric payloads.",
+      "Managed FAA DroneZone registration and DJI GO 4 telemetry software integration."
     ],
     achievements: [
-      "Shipped production features within the first month for a trader-facing P&L dashboard used by global stakeholders.",
-      "Led migration from Kendo UI to UBS’s internal design system, reducing UI inconsistencies and improving render performance across core dashboards.",
-      "Designed and automated a daily FX rate ingestion pipeline using Databricks (Python, Spark SQL) and Java services, eliminating manual rate updates.",
-      "Won UBS AI Venture Challenge by building data transformation and anomaly detection pipelines on trading datasets.",
-      "Led a 12-member team in an internal hackathon to build an AI-powered tool that generates GitLab tickets, test cases, and requirement summaries.",
-    ],
-    skills: ["Typescript", "React", "Databricks", "Java", "Python"],
-    companyUrl: "https://www.ubs.com",
-    logo: "/experience/keys-logo.png",
-  },
-  {
-    id: "muze-ai",
-    position: "Founding Engineer",
-    company: "Muze AI",
-    location: "Bengaluru, India",
-    startDate: new Date("2023-10-01"),
-    endDate: new Date("2024-03-01"),
-    description: [
-      "Improved LLM function-calling accuracy through structured prompt design and response validation.",
-      "Developed APIs and integrated Slack, Google Workspace, and HubSpot automations via FastAPI.",
-      "Migrated ML inference from Replicate to AWS SageMaker to reduce cold-start latency.",
-    ],
-    achievements: [
-      "Improved LLM function-calling accuracy by ~40% through structured prompt design and response validation.",
-      "Developed APIs and integrated Slack, Google Workspace, and HubSpot automations via FastAPI.",
-      "Migrated ML inference from Replicate to AWS SageMaker, reducing cold-start latency by ~30%.",
-      "Created a Next.js dashboard for user analytics and a demo video explaining the implementation.",
-    ],
-    skills: ["FastAPI", "Python", "AWS", "Next.js", "React", "Typescript"],
-    companyUrl: "https://muzecmo.com",
-    logo: "/experience/muzeai-logo.png",
-  },
-  {
-    id: "builtdesign",
-    position: "Web Developer Intern",
-    company: "Builtdesign",
-    location: "Nagpur, India",
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    description: [
-      "Developed websites using React, Angular, and GraphQL.",
-      "Set up AWS servers and CI/CD pipelines.",
-      "Built a multi-page PDF reader for large files (>300MB).",
-    ],
-    achievements: [
-      "Developed websites using React, Angular, and GraphQL; reduced API load time by 30%.",
-      "Set up AWS servers and CI/CD pipelines, scaling traffic to 3,000+ users/day.",
-      "Built a multi-page PDF reader for large files (>300MB) to boost user engagement.",
+      "Spearheaded field recovery protocols and hardware retrieval workflows as Lead of the Drone Recovery Team.",
+      "Modeled 10G shock-resistant tungsten payload mounting stacks in SolidWorks for high-altitude stratospheric balloon flights.",
+      "Ensured 100% regulatory compliance through FAA DroneZone registration and structured field test execution."
     ],
     skills: [
-      "React",
-      "Angular",
-      "GraphQL",
-      "AWS",
-      "HTML 5",
-      "CSS 3",
-      "Javascript",
+      "High-G Payload Design",
+      "SolidWorks & CAD",
+      "Drone Operations & Field Recovery",
+      "Mechatronics & Embedded Systems",
+      "Finite Element Analysis (FEA)"
     ],
-    companyUrl: "https://builtdesign.in",
-    logo: "/experience/builtdesign-logo.png",
+    companyUrl: "https://drexel.edu",
+    logo: "/experience/drexel-logo.png",
+  },
+  {
+    id: "formula-sae",
+    position: "Powertrain Team Member",
+    company: "Drexel Formula SAE",
+    location: "Philadelphia, PA",
+    startDate: new Date("2025-10-01"),
+    endDate: new Date("2026-06-01"),
+    description: [
+      "Participated in the design, analysis, and assembly of custom powertrain components for an F1-style student racing car.",
+      "Calculated engineering fits and tolerances for rotating assemblies under high thermal and mechanical stress.",
+      "Utilized MATLAB and Simulink for performance simulation and final drive ratio optimization."
+    ],
+    achievements: [
+      "Modeled custom engine mounts and differential supports using SolidWorks.",
+      "Executed MATLAB performance simulations to calculate optimal final drive ratios for race conditions.",
+      "Calculated precise engineering tolerances to prevent component failure under strenuous racing loads."
+    ],
+    skills: [
+      "SolidWorks & CAD",
+      "MATLAB & Simulink",
+      "Rapid Prototyping & 3D Printing",
+      "Finite Element Analysis (FEA)"
+    ],
+    companyUrl: "https://drexel.edu",
+    logo: "/experience/fsae-logo.png",
   },
 ];
