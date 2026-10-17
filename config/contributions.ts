@@ -7,39 +7,32 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "minimal-next-portfolio",
+    repo: "HASP Drone Recovery Leadership",
     contibutionDescription:
-      "Open-source Next.js portfolio template. Trusted and forked by developers worldwide (130+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/minimal-next-portfolio",
+      "Led the Drone Recovery Team for the HASP/HERA stratospheric payload initiative, managing operational flight testing, FAA regulatory compliance, and hardware retrieval protocols.",
+    repoOwner: "HERA / NASA PSGC / Drexel",
+    link: "https://github.com/MuHasOfficial",
   },
   {
-    repo: "niya-saas-template",
+    repo: "HASP Stratospheric Payload Hardware",
     contibutionDescription:
-      "Modern Next.js SaaS template. Production-ready starter for devs and AI startups (30+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/niya-saas-template",
+      "Executed mechanical design and 10G shock load analysis for tungsten mounting stacks to secure particle detection hardware during atmospheric balloon flights.",
+    repoOwner: "HERA / NASA PSGC",
+    link: "https://github.com/MuHasOfficial",
   },
   {
-    repo: "autogen",
+    repo: "PECO Line Work & FIN Department Systems",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "Designed automated master data tracking sheets and dynamic analytical tools to optimize dispatch workflows and line work maintenance operations for the Fix It Now department.",
+    repoOwner: "PECO Energy",
+    link: "https://github.com/MuHasOfficial",
   },
   {
-    repo: "creativecommons",
+    repo: "NSF AIME Program",
     contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
-  },
-  {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Participated in NSF-funded initiatives supporting engineering diversity, academic excellence, and professional leadership at Drexel University.",
+    repoOwner: "National Science Foundation / Drexel",
+    link: "https://github.com/MuHasOfficial",
   },
 ];
 
