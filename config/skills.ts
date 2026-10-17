@@ -9,152 +9,74 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
+    name: "SolidWorks & CAD",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "3D parametric modeling, complex assemblies, motion analysis, GD&T, and exploded BOM setups.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.html5,
   },
   {
-    name: "React",
+    name: "MATLAB & Simulink",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Engineering computations, matrix manipulation, system dynamics, and control loop modeling.",
     rating: 5,
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Python",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "Data analysis, automated calculations, numerical simulation, and mechatronic scripting.",
     rating: 5,
     icon: Icons.typescript,
   },
   {
-    name: "Javascript",
+    name: "Mechatronics & Embedded Systems",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "Microcontroller integration (Raspberry Pi Pico, Arduino Mega), sensors, OLED displays, and motor drivers.",
     rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
-  },
-  {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
     icon: Icons.react,
   },
   {
-    name: "Angular",
+    name: "Finite Element Analysis (FEA)",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
+      "Structural stress analysis, thermal evaluation, and mechanical failure verification under load.",
     rating: 4,
-    icon: Icons.redux,
+    icon: Icons.nextjs,
   },
   {
-    name: "Socket.io",
+    name: "High-G Payload Design",
     description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
+      "Designing 10G shock load tungsten mounting stacks and stratospheric balloon instrumentation.",
+    rating: 5,
+    icon: Icons.express,
   },
   {
-    name: "Material UI",
+    name: "Rapid Prototyping & 3D Printing",
     description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
+      "Additive manufacturing, FDM slicing optimization, component tolerances, and physical test fixtures.",
     rating: 4,
-    icon: Icons.mui,
+    icon: Icons.mongodb,
   },
-
   {
-    name: "Tailwind CSS",
+    name: "Excel & Master Data Automation",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Building operational job tracking tools, dynamic pivot tables, and automated workflow analytics.",
     rating: 5,
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
+    name: "Drone Operations & Field Recovery",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
+      "FAA compliance (DroneZone), flight testing protocols, and hardware retrieval workflows.",
+    rating: 4,
     icon: Icons.amazonaws,
   },
   {
-    name: "Bootstrap",
+    name: "Multisim Circuit Design",
     description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+      "Electronic circuit simulation, schematic capture, and analog/digital component testing.",
+    rating: 3,
+    icon: Icons.graphql,
   },
 ];
 
