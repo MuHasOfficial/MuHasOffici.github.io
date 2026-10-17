@@ -15,7 +15,7 @@ export interface ExperienceInterface {
 }
 
 export const experiences: ExperienceInterface[] = [
-  {
+{
     id: "peco-fin",
     position: "Engineering & Master Data Intern",
     company: "PECO - Fix It Now (FIN) Department",
@@ -32,7 +32,7 @@ export const experiences: ExperienceInterface[] = [
       "Optimized field data tracking and dispatch workflows, significantly reducing reporting bottlenecks.",
       "Developed presentation slides and technical posters showcasing operational efficiency metrics to department leaders."
     ],
-    skills: ["Excel & Master Data Automation", "Python", "Engineering Design & Optimization"],
+    skills: ["Python", "HTML 5", "CSS 3"],
     companyUrl: "https://www.peco.com",
     logo: "/experience/peco-logo.png",
   },
